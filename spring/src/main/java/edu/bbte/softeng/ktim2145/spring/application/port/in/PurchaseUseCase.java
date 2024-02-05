@@ -2,6 +2,7 @@ package edu.bbte.softeng.ktim2145.spring.application.port.in;
 
 import edu.bbte.softeng.ktim2145.spring.application.domain.entity.BaseEntity;
 import edu.bbte.softeng.ktim2145.spring.util.annotation.UseCase;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;

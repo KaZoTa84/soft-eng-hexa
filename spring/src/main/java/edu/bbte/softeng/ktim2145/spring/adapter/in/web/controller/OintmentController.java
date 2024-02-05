@@ -5,7 +5,6 @@ import edu.bbte.softeng.ktim2145.spring.adapter.in.web.dto.WebDetailedDto;
 import edu.bbte.softeng.ktim2145.spring.adapter.in.web.dto.WebReducedDto;
 import edu.bbte.softeng.ktim2145.spring.adapter.in.web.mapper.WebDtoMapper;
 import edu.bbte.softeng.ktim2145.spring.application.domain.entity.Ointment;
-import edu.bbte.softeng.ktim2145.spring.application.domain.service.PurchaseService;
 import edu.bbte.softeng.ktim2145.spring.application.port.in.PurchaseUseCase;
 import edu.bbte.softeng.ktim2145.spring.util.annotation.WebAdapter;
 import jakarta.validation.Valid;

@@ -3,13 +3,14 @@ package edu.bbte.softeng.ktim2145.spring.application.port.out;
 import edu.bbte.softeng.ktim2145.spring.application.domain.entity.BaseEntity;
 
 import java.util.Collection;
+import java.util.Optional;
 
 public interface PersistencePort<EntityT extends BaseEntity> {
-    EntityT create(EntityT entityT);
+    EntityT save(EntityT entityT);
 
-    void delete(Long id);
+    void deleteById(Long id);
 
-    EntityT findById(Long id);
+    Optional<EntityT> findById(Long id);
 
     Collection<EntityT> findAll();
 }

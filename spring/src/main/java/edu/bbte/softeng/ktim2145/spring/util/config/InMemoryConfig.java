@@ -15,11 +15,7 @@ import java.text.ParseException;
 @Data
 @Profile("in-memory")
 @Configuration
-@PropertySource("classpath:/config-in-memory.properties")
 public class InMemoryConfig {
-    @Value("${jdbcDatabase}")
-    private String database;
-
     @Autowired
     private PurchaseService purchaseService;
 

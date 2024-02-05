@@ -1,4 +1,4 @@
-package edu.bbte.softeng.ktim2145.spring.adapter.out.persistence;
+package edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.inmemory;
 
 import edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.dto.PersistenceDto;
 import edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.mapper.PersistenceDtoMapper;
@@ -13,10 +13,11 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicLong;
 
 @Slf4j
-@PersistenceAdapter
 @Repository
 @Profile("in-memory")
 public class OintmentInMemoryPersistence implements OintmentPersistencePort {
@@ -25,20 +26,22 @@ public class OintmentInMemoryPersistence implements OintmentPersistencePort {
 
     protected Map<Long, PersistenceDto> entities = new ConcurrentHashMap<>();
 
+    private final AtomicLong newId = new AtomicLong(1L);
+
     @Override
-    public Ointment create(Ointment entity) {
+    public Ointment save(Ointment entity) {
         PersistenceDto dto = persistenceDtoMapper.modelToDto(entity);
-        entities.put(entity.getId(), dto);
-        return persistenceDtoMapper.dtoToModel(entities.get(entity.getId()));
+        entities.put(newId.getAndIncrement(), dto);
+        return persistenceDtoMapper.dtoToModel(entities.get(newId.get()));
     }
 
     @Override
-    public Ointment findById(Long id) {
+    public Optional<Ointment> findById(Long id) {
         if (!entities.containsKey(id)) {
             throw new NotFoundException("The requested Id doesn't exist!");
         }
 
-        return persistenceDtoMapper.dtoToModel(entities.get(id));
+        return Optional.of(persistenceDtoMapper.dtoToModel(entities.get(id)));
     }
 
     @Override
@@ -51,7 +54,7 @@ public class OintmentInMemoryPersistence implements OintmentPersistencePort {
     }
 
     @Override
-    public void delete(Long id) {
+    public void deleteById(Long id) {
         if (!entities.containsKey(id)) {
             throw new NotFoundException("The requested Id doesn't exist!");
         }

@@ -1,0 +1,3 @@
+rootProject.name = 'ktim2145-ointment'
+include 'spring'
+

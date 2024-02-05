@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.0" sequence="0" timestamp="1702910397394" analysisTimestamp="1702910397485" release="unspecified">
+  <Project projectName="spring (spotbugsMain)">
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\in\web\controller\OintmentController.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\in\web\controlleradvice\GeneralExceptionHandler.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebCreateDto.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebDetailedDto.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebReducedDto.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\in\web\mapper\WebDtoMapper.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\in\web\mapper\WebDtoMapperImpl.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\dto\PersistenceDto.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\InMemoryOintmentRepository.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\mapper\PersistenceDtoMapper.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\mapper\PersistenceDtoMapperImpl.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\application\domain\entity\BaseEntity.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\application\domain\entity\Ointment.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\application\domain\service\PurchaseService.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\application\port\in\PurchaseUseCase.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\application\port\out\OintmentRepository.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\application\port\out\Repository.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\Main.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\util\config\InMemoryConfig.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\util\exception\GeneralBadRequestException.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\util\exception\NotFoundException.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\util\exception\RepositoryException.class</Jar>
+    <Jar>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\build\classes\java\main\edu\bbte\softeng\ktim2145\spring\util\exception\ServiceException.class</Jar>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-web\3.1.5\3674e5603cc25bc4dccf73b97d50234332fc3d72\spring-boot-starter-web-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-validation\3.1.5\f653e6661ec3da08003789f4a6583d1674e333b1\spring-boot-starter-validation-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-json\3.1.5\36ce79c1a5c63ffd72b092eb312cb35ac6edb128\spring-boot-starter-json-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\3.1.5\a14cd17b86261933929566775d80c65b9f7440fc\spring-boot-starter-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.projectlombok\lombok\1.18.30\f195ee86e6c896ea47a1d39defbe20eb59cd149d\lombok-1.18.30.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.mapstruct\mapstruct\1.5.3.Final\5f5d063858957ef086858bc3d003f702082297f3\mapstruct-1.5.3.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\com.zaxxer\HikariCP\5.1.0\8c96e36c14461fc436bb02b264b96ef3ca5dca8c\HikariCP-5.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.15.3\4a20a0e104931bfa72f24ef358c2eb63f1ef2aaf\jackson-datatype-jsr310-2.15.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-parameter-names\2.15.3\8d251b90c5358677e7d8161e0c2488e6f84f49da\jackson-module-parameter-names-2.15.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.15.3\79baf4e605eb3bbb60b1c475d44a7aecceea1d60\jackson-annotations-2.15.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.15.3\60d600567c1862840397bf9ff5a92398edc5797b\jackson-core-2.15.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.15.3\80158cb020c7bd4e4ba94d8d752a65729dc943b2\jackson-datatype-jdk8-2.15.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.12.7.1\48d6674adb5a077f2c04b42795e2e7624997b8b9\jackson-databind-2.12.7.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\3.1.5\42a5b2ee98f700fba8d8c88d4af7b23266f1de0f\spring-boot-autoconfigure-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\3.1.5\c188015a5a79f5df65e876dcfdef16148c45fe2c\spring-boot-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-logging\3.1.5\8d8a91061baa4347d97a8fe15f3337d943badab\spring-boot-starter-logging-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-tomcat\3.1.5\4b362b923ec1ca080556c4e55fe4ae73cf5a84d7\spring-boot-starter-tomcat-3.1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\jakarta.annotation\jakarta.annotation-api\2.1.1\48b9bda22b091b1f48b13af03fe36db3be6e1ae3\jakarta.annotation-api-2.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webmvc\6.0.13\df1230a7dde55b9ce9d72670b42d621dc2e481df\spring-webmvc-6.0.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework\spring-web\6.0.13\c374fcaf34d82d735a1dcf2c496f064488aa2b20\spring-web-6.0.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\6.0.13\4c49af6dde7fce9602049f952b45ca29f30e2a37\spring-context-6.0.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\6.0.13\aae1a18033787c9d324322f4470b12264e773e83\spring-aop-6.0.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\6.0.13\5b205c9f2fb07c1367db144ce7ab305f94300604\spring-beans-6.0.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\6.0.13\2bedffa4a3850bbbb652a31c47671824b17fbe01\spring-expression-6.0.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\6.0.13\cd565c2408e37d2026822b871cd43e69da8ec40e\spring-core-6.0.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.33\2cd0a87ff7df953f810c344bdf2fe3340b954c69\snakeyaml-1.33.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-el\10.1.15\49e784ef48d5fc7bc48d7e2a7ceb57e88b4d58b7\tomcat-embed-el-10.1.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.hibernate.validator\hibernate-validator\8.0.1.Final\e49e116b3d3928060599b176b3538bb848718e95\hibernate-validator-8.0.1.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.4.11\54450c0c783e896a1a6d88c043bd2f1daba1c382\logback-classic-1.4.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-to-slf4j\2.20.0\d37f81f8978e2672bc32c82712ab4b3f66624adc\log4j-to-slf4j-2.20.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\2.0.9\9ef7c70b248185845f013f49a33ff9ca65b7975\jul-to-slf4j-2.0.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jcl\6.0.13\91ea90f2de4c71dac3cff04882156b00cdca3e0d\spring-jcl-6.0.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-websocket\10.1.15\14cc0999d4a5128dc9bb8862487aa8ed4cd7fcd8\tomcat-embed-websocket-10.1.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-core\10.1.15\e3a725405f494abc0fd4f30263c2e6ad87052de1\tomcat-embed-core-10.1.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-observation\1.11.5\803f341121416365d1c438fe2a7290b146fadc92\micrometer-observation-1.11.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\jakarta.validation\jakarta.validation-api\3.0.2\92b6631659ba35ca09e44874d3eb936edfeee532\jakarta.validation-api-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.5.3.Final\c88fc1d8a96d4c3491f55d4317458ccad53ca663\jboss-logging-3.5.3.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.4.11\2f9f280219a9922a74200eaf7138c4c17fb87c0f\logback-core-1.4.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.20.0\1fe6082e660daf07c689a89c94dc0f49c26b44bb\log4j-api-2.20.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Kari Tomi\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-commons\1.11.5\3e708f737ba2674823201a836b5858482b183902\micrometer-commons-1.11.5.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 18 Dec 2023 16:39:57 +0200" total_classes="23" referenced_classes="117" total_bugs="0" total_size="444" num_packages="14" java_version="21.0.1" vm_version="21.0.1+12-LTS-29" cpu_seconds="28.77" clock_seconds="5.05" peak_mbytes="224.56" alloc_mbytes="4032.00" gc_seconds="0.03">
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/Main.java" bugCount="0" size="6"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/in/web/controller/OintmentController.java" bugCount="0" size="25"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/in/web/controlleradvice/GeneralExceptionHandler.java" bugCount="0" size="19"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/in/web/dto/WebCreateDto.java" bugCount="0" size="30"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/in/web/dto/WebDetailedDto.java" bugCount="0" size="16"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/in/web/dto/WebReducedDto.java" bugCount="0" size="30"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/in/web/mapper/WebDtoMapper.java" bugCount="0" size="6"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/in/web/mapper/WebDtoMapperImpl.java" bugCount="0" size="42"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/out/persistence/InMemoryOintmentRepository.java" bugCount="0" size="28"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/out/persistence/dto/PersistenceDto.java" bugCount="0" size="36"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/out/persistence/mapper/PersistenceDtoMapper.java" bugCount="0" size="6"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/adapter/out/persistence/mapper/PersistenceDtoMapperImpl.java" bugCount="0" size="33"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/application/domain/entity/BaseEntity.java" bugCount="0" size="14"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/application/domain/entity/Ointment.java" bugCount="0" size="32"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/application/domain/service/PurchaseService.java" bugCount="0" size="35"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/application/port/in/PurchaseUseCase.java" bugCount="0" size="5"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/application/port/out/OintmentRepository.java" bugCount="0" size="1"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/application/port/out/Repository.java" bugCount="0" size="5"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/util/config/InMemoryConfig.java" bugCount="0" size="23"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/util/exception/GeneralBadRequestException.java" bugCount="0" size="13"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/util/exception/NotFoundException.java" bugCount="0" size="13"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/util/exception/RepositoryException.java" bugCount="0" size="13"/>
+    <FileStats path="edu/bbte/softeng/ktim2145/spring/util/exception/ServiceException.java" bugCount="0" size="13"/>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.Main" sourceFile="Main.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.adapter.in.web.controller" total_bugs="0" total_types="1" total_size="25">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.in.web.controller.OintmentController" sourceFile="OintmentController.java" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.adapter.in.web.controlleradvice" total_bugs="0" total_types="1" total_size="19">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.in.web.controlleradvice.GeneralExceptionHandler" sourceFile="GeneralExceptionHandler.java" interface="false" size="19" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.adapter.in.web.dto" total_bugs="0" total_types="3" total_size="76">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.in.web.dto.WebCreateDto" sourceFile="WebCreateDto.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.in.web.dto.WebDetailedDto" sourceFile="WebDetailedDto.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.in.web.dto.WebReducedDto" sourceFile="WebReducedDto.java" interface="false" size="30" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.adapter.in.web.mapper" total_bugs="0" total_types="2" total_size="48">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.in.web.mapper.WebDtoMapper" sourceFile="WebDtoMapper.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.in.web.mapper.WebDtoMapperImpl" sourceFile="WebDtoMapperImpl.java" interface="false" size="42" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.adapter.out.persistence" total_bugs="0" total_types="1" total_size="28">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.OintmentInMemoryPersistence" sourceFile="InMemoryOintmentRepository.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.dto" total_bugs="0" total_types="1" total_size="36">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.dto.PersistenceDto" sourceFile="PersistenceDto.java" interface="false" size="36" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.mapper" total_bugs="0" total_types="2" total_size="39">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.mapper.PersistenceDtoMapper" sourceFile="PersistenceDtoMapper.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.mapper.PersistenceDtoMapperImpl" sourceFile="PersistenceDtoMapperImpl.java" interface="false" size="33" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.application.domain.entity" total_bugs="0" total_types="2" total_size="46">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.application.domain.entity.BaseEntity" sourceFile="BaseEntity.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.application.domain.entity.Ointment" sourceFile="Ointment.java" interface="false" size="32" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.application.domain.service" total_bugs="0" total_types="1" total_size="35">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.application.domain.service.PurchaseService" sourceFile="PurchaseService.java" interface="false" size="35" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.application.port.in" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.application.port.in.PurchaseUseCase" sourceFile="PurchaseUseCase.java" interface="true" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.application.port.out" total_bugs="0" total_types="2" total_size="6">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.application.port.out.OintmentPersistencePort" sourceFile="OintmentRepository.java" interface="true" size="1" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.application.port.out.PersistencePort" sourceFile="Repository.java" interface="true" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.util.config" total_bugs="0" total_types="1" total_size="23">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.util.config.InMemoryConfig" sourceFile="InMemoryConfig.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="edu.bbte.softeng.ktim2145.spring.util.exception" total_bugs="0" total_types="4" total_size="52">
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.util.exception.GeneralBadRequestException" sourceFile="GeneralBadRequestException.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.util.exception.NotFoundException" sourceFile="NotFoundException.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.util.exception.RepositoryException" sourceFile="RepositoryException.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="edu.bbte.softeng.ktim2145.spring.util.exception.ServiceException" sourceFile="ServiceException.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="920" invocations="1004" avgMicrosecondsPerInvocation="916" maxMicrosecondsPerInvocation="49664" standardDeviationMicrosecondsPerInvocation="2371"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="236" invocations="117" avgMicrosecondsPerInvocation="2025" maxMicrosecondsPerInvocation="24954" standardDeviationMicrosecondsPerInvocation="4521"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="175" invocations="1013" avgMicrosecondsPerInvocation="173" maxMicrosecondsPerInvocation="5844" standardDeviationMicrosecondsPerInvocation="349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="158" invocations="391" avgMicrosecondsPerInvocation="405" maxMicrosecondsPerInvocation="7221" standardDeviationMicrosecondsPerInvocation="773"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="149" invocations="117" avgMicrosecondsPerInvocation="1275" maxMicrosecondsPerInvocation="17623" standardDeviationMicrosecondsPerInvocation="2680"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="114" invocations="117" avgMicrosecondsPerInvocation="975" maxMicrosecondsPerInvocation="94591" standardDeviationMicrosecondsPerInvocation="8698"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="112" invocations="167" avgMicrosecondsPerInvocation="675" maxMicrosecondsPerInvocation="84379" standardDeviationMicrosecondsPerInvocation="6510"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="101" invocations="189" avgMicrosecondsPerInvocation="535" maxMicrosecondsPerInvocation="37903" standardDeviationMicrosecondsPerInvocation="2911"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="97" invocations="117" avgMicrosecondsPerInvocation="829" maxMicrosecondsPerInvocation="12761" standardDeviationMicrosecondsPerInvocation="1912"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="82" invocations="959" avgMicrosecondsPerInvocation="86" maxMicrosecondsPerInvocation="2417" standardDeviationMicrosecondsPerInvocation="216"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="70" invocations="153" avgMicrosecondsPerInvocation="462" maxMicrosecondsPerInvocation="12074" standardDeviationMicrosecondsPerInvocation="1368"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="70" invocations="153" avgMicrosecondsPerInvocation="458" maxMicrosecondsPerInvocation="16306" standardDeviationMicrosecondsPerInvocation="1602"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="69" invocations="117" avgMicrosecondsPerInvocation="592" maxMicrosecondsPerInvocation="18533" standardDeviationMicrosecondsPerInvocation="2343"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="61" invocations="153" avgMicrosecondsPerInvocation="400" maxMicrosecondsPerInvocation="19242" standardDeviationMicrosecondsPerInvocation="1640"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="58" invocations="117" avgMicrosecondsPerInvocation="502" maxMicrosecondsPerInvocation="9671" standardDeviationMicrosecondsPerInvocation="1208"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="55" invocations="117" avgMicrosecondsPerInvocation="470" maxMicrosecondsPerInvocation="5506" standardDeviationMicrosecondsPerInvocation="1084"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="52" invocations="153" avgMicrosecondsPerInvocation="345" maxMicrosecondsPerInvocation="16900" standardDeviationMicrosecondsPerInvocation="1394"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="51" invocations="148" avgMicrosecondsPerInvocation="350" maxMicrosecondsPerInvocation="6527" standardDeviationMicrosecondsPerInvocation="732"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DontReusePublicIdentifiers" totalMilliseconds="49" invocations="23" avgMicrosecondsPerInvocation="2159" maxMicrosecondsPerInvocation="45779" standardDeviationMicrosecondsPerInvocation="9301"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="48" invocations="153" avgMicrosecondsPerInvocation="313" maxMicrosecondsPerInvocation="9290" standardDeviationMicrosecondsPerInvocation="840"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="46" invocations="117" avgMicrosecondsPerInvocation="395" maxMicrosecondsPerInvocation="9005" standardDeviationMicrosecondsPerInvocation="944"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

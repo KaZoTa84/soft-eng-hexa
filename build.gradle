@@ -5,8 +5,6 @@ subprojects {
 
     apply from: "$rootDir/lint.gradle"
 
-    mainClassName = 'src.main.java.edu.bbte.softeng.ktim2145.spring.Main'
-
     java {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17

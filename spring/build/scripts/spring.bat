@@ -72,7 +72,7 @@ set CLASSPATH=%APP_HOME%\lib\ointment-hexa-0.1.0-plain.jar;%APP_HOME%\lib\spring
 
 
 @rem Execute spring
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SPRING_OPTS%  -classpath "%CLASSPATH%" src.main.java.edu.bbte.softeng.ktim2145.spring.Main %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SPRING_OPTS%  -classpath "%CLASSPATH%"  %*
 
 :end
 @rem End local scope for the variables with windows NT shell

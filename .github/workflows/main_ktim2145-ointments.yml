@@ -38,4 +38,4 @@ jobs:
        service-name: ktim2145-ointments
        app-name: ktim2145-ointments
        use-staging-deployment: false
-       package: ${{ env.ASC_PACKAGE_PATH }}/application/**/application0.0.1-SNAPSHOT.jar
+       package: ${{ env.ASC_PACKAGE_PATH }}/spring/build/libs/ointment-hexa-0.1.0-plain.jar

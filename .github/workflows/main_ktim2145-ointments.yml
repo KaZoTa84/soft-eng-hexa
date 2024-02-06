@@ -3,7 +3,7 @@ name: Build and deploy JAR app to Azure Web App - bros-serveros
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:

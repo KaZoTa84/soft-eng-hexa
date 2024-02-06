@@ -2,18 +2,16 @@ package edu.bbte.softeng.ktim2145.spring.application.port.in;
 
 import edu.bbte.softeng.ktim2145.spring.application.domain.entity.BaseEntity;
 import edu.bbte.softeng.ktim2145.spring.util.annotation.UseCase;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 
 @UseCase
-public interface PurchaseUseCase<EntityT extends BaseEntity> {
-    Collection<EntityT> getAllOintment();
+public interface PurchaseUseCase<T extends BaseEntity> {
+    Collection<T> getAllOintment();
 
-    EntityT describeTheOintment(Long id);
+    T describeTheOintment(Long id);
 
-    EntityT newOintment(EntityT entity);
+    T newOintment(T entity);
 
-    EntityT purchaseOintment(Long id, Double balance);
+    T purchaseOintment(Long id, Double balance);
 }

@@ -4,7 +4,6 @@ import edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.dto.PersistenceD
 import edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.mapper.PersistenceDtoMapper;
 import edu.bbte.softeng.ktim2145.spring.application.port.out.OintmentPersistencePort;
 import edu.bbte.softeng.ktim2145.spring.application.domain.entity.Ointment;
-import edu.bbte.softeng.ktim2145.spring.util.annotation.PersistenceAdapter;
 import edu.bbte.softeng.ktim2145.spring.util.exception.NotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

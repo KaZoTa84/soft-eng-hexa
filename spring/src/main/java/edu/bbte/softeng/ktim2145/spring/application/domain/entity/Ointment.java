@@ -19,7 +19,7 @@ public class Ointment extends BaseEntity {
     String brand;
     @Column(nullable = false)
     String expiration;
-    @Column(name = "`description`" ,nullable = false)
+    @Column(name = "`description`", nullable = false)
     String description;
     @Column(nullable = false)
     Double price;

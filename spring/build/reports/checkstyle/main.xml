@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="10.12.4">
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\controller\OintmentController.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\controller\OintmentController.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\controlleradvice\GeneralExceptionHandler.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\controlleradvice\GeneralExceptionHandler.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebCreateDto.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebCreateDto.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebDetailedDto.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebDetailedDto.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebReducedDto.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\dto\WebReducedDto.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\mapper\WebDtoMapper.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\in\web\mapper\WebDtoMapper.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\dto\PersistenceDto.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\dto\PersistenceDto.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\InMemoryOintmentRepository.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\inmemory\OintmentInMemoryPersistence.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\mapper\PersistenceDtoMapper.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\jpa\OintmentJpaPersistence.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\domain\entity\BaseEntity.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\adapter\out\persistence\mapper\PersistenceDtoMapper.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\domain\entity\Ointment.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\domain\entity\BaseEntity.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\domain\service\PurchaseService.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\domain\entity\Ointment.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\port\in\PurchaseUseCase.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\domain\service\PurchaseService.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\port\out\OintmentRepository.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\port\in\PurchaseUseCase.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\port\out\Repository.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\port\out\OintmentPersistencePort.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\Main.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\application\port\out\PersistencePort.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\config\InMemoryConfig.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\Main.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\exception\GeneralBadRequestException.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\annotation\PersistenceAdapter.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\exception\NotFoundException.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\annotation\UseCase.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\exception\RepositoryException.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\annotation\WebAdapter.java">
 </file>
-<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\Architectures\hexagonal\ointment\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\exception\ServiceException.java">
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\config\InMemoryConfig.java">
+</file>
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\exception\GeneralBadRequestException.java">
+</file>
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\exception\NotFoundException.java">
+</file>
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\exception\RepositoryException.java">
+</file>
+<file name="C:\Users\Kari Tomi\Dropbox\PC\Desktop\Egyetem\Softver Engineering\soft-eng-azure-hexa\soft-eng-hexa\spring\src\main\java\edu\bbte\softeng\ktim2145\spring\util\exception\ServiceException.java">
 </file>
 </checkstyle>

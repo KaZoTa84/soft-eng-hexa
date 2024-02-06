@@ -1,6 +1,5 @@
 package edu.bbte.softeng.ktim2145.spring.adapter.out.persistence.dto;
 
-import edu.bbte.softeng.ktim2145.spring.application.domain.entity.BaseEntity;
 import lombok.*;
 
 @Data

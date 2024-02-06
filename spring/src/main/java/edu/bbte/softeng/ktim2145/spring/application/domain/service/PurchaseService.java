@@ -2,13 +2,11 @@ package edu.bbte.softeng.ktim2145.spring.application.domain.service;
 
 import edu.bbte.softeng.ktim2145.spring.application.port.in.PurchaseUseCase;
 import edu.bbte.softeng.ktim2145.spring.application.port.out.OintmentPersistencePort;
-import edu.bbte.softeng.ktim2145.spring.util.annotation.UseCase;
 import edu.bbte.softeng.ktim2145.spring.util.exception.NotFoundException;
 import edu.bbte.softeng.ktim2145.spring.util.exception.ServiceException;
 import edu.bbte.softeng.ktim2145.spring.application.domain.entity.Ointment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;

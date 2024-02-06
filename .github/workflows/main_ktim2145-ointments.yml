@@ -38,4 +38,4 @@ jobs:
        service-name: ktim2145-ointments
        app-name: oitnments-hexa
        use-staging-deployment: false
-       package: ${{ env.ASC_PACKAGE_PATH }}
+       package: ${{ env.ASC_PACKAGE_PATH }}/application/**/application0.0.1-SNAPSHOT.jar

@@ -35,7 +35,7 @@ jobs:
      with:
        azure-subscription: ${{ env.AZURE_SUBSCRIPTION }}
        action: Deploy
-       service-name: ktim2145-ointments
+       service-name: ointments-spring-hexa
        app-name: ktim2145-ointments
        use-staging-deployment: false
        package: ${{ env.ASC_PACKAGE_PATH }}/spring/build/libs/ointment-hexa-0.1.0-plain.jar

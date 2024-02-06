@@ -25,7 +25,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: java-app
-          path: '${{ github.workspace }}/build/libs/*.jar'
+          path: '${{ github.workspace }}/spring/build/libs/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
@@ -51,6 +51,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'bros-serveros'
+          app-name: 'ktim2145-ointments'
           slot-name: 'Production'
-          package: 'HexaProject-1.0.0-SNAPSHOT.jar'
+          package: 'ointment-hexa-0.1.0-plain.jar'

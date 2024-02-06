@@ -35,7 +35,6 @@ jobs:
      with:
        azure-subscription: ${{ env.AZURE_SUBSCRIPTION }}
        action: Deploy
-       service-name: ASP-ointmentsspringhexa-88af
        app-name: ointments_store
        use-staging-deployment: false
        package: ${{ env.ASC_PACKAGE_PATH }}/spring/build/libs/ointment-hexa-0.1.0-plain.jar
